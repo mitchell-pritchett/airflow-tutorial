@@ -17,8 +17,9 @@ default_args = {
     "start_date": datetime(2022, 1, 1) # 2022년 1월 1일 부터 대그 시작 --> 현재는 22년 7월이므로 대그를 실행하면 무조건 한 번은 돌아갈 것
 }
 
-NAVER_CLI_ID = "Dy8gMXUAzJbv0jUBNVEo"
-NAVER_CLI_SECRET = "ycpb7kzsZp"
+# 본인이 발급받은 키를 넣으세요
+NAVER_CLI_ID = "your_cli_id"
+NAVER_CLI_SECRET = "your_cli_secret"
 
 def _complete():
     print("네이버 검색 DAG 완료")

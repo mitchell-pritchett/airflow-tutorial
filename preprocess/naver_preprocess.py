@@ -20,6 +20,6 @@ def preprocessing(ti):
          "description": item["description"],
          "link": item["link"]} for item in items
     ])
-
+    
     processed_items.to_csv("/home/kurran/airflow/dags/data/naver_processed_result.csv", index=None, header=False)
 
